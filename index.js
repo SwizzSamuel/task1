@@ -4,7 +4,7 @@ const port = 6000 || process.env.PORT
 const host = '172.0.0.1';
 
 const server = https.createServer((req, res) => {
-    res.statusCode(200);
+    res.statusCode(201);
     res.setHeader('Content-Type', 'application/json');
     res.end('Resource created successfully')
 })
